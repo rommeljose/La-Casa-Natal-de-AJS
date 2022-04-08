@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ********************************************************************
+         Copyright 2022 Rommel Contreras
+ 
+	********************************************************************
+
+	LA CASA NATAL DE ANTONIO JOSÉ DE SUCRE                           
+	(De la incertidumbre a la geometría del espacio real)
+
+	Copyright (C) 2022  rommel Contreras 
+
+	********************************************************************
+
+	Estte es el archivo del "capitulo_2.xml" del libro
+
+	******************************************************************** -->
+
+<chapter xml:id="cap_02" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+	<!-- % RJCG, 1/4/2022 -->
+
+	<title>Argumentos Cartográficos</title>
+	
+	<p>La cartografía descriptiva de la costa y del territorio cumanés es notable durante el siglo XVIII. El incremento de la actividad comercial y las urgencias bélicas hacen de la cartografía un arma estratégica: es el elemento esencial para garantizar la integridad territorial ultramarina que España mantenía en América. La corona envía a sus mejores para levantar y plasmar los detalles de la tierra, de la costa y de la profundidad del mar; algunos de ellos llegan a Cumaná, la cual se beneficia por la concurrencia y el cúmulo de sus saberes <xref ref="contreras_0"/>.</p>
+
+	<p>Utilizaremos como base cartográfica de esta investigación, los mapas y planos de Cumaná hechos en la segunda mitad del siglo XVIII, indicados en la Tabla [<xref ref="planos-mapas"/>] y mostrados en el Anexo Cartográfico. Igualmente haremos uso de: fotografías aéreas tomadas sobre Cumaná en vuelos organizados por la extinta Cartografía Nacional (1937 - 1948), de planos del centro de Cumaná publicados por <acro>MINDUR</acro> en 1992 (hojas A-27-A y A27-B) y del servicio de mapas digitales y satelitales de la empresa Google Earth (<trademark/>).</p>
+	
+	    <!-- #### Tabla con la Cartografía utilizada ##### -->
+		<table xml:id="planos-mapas">
+			<title>Cartografía de Cumaná; segunda mitad del siglo XVIII (<xref ref="contreras_1"/>).</title>
+			
+			<tabular halign ="left">
+				<row bottom ="minor">
+					<cell>Nombre, autor, año / signatura, archivo</cell>
+				</row>
+				<row>
+					<cell>
+					<line><em>«Plano de la ciudad de Cumaná en la Nueva Andaluzía»</em></line>
+					<line>Autor desconocido</line>
+					<line>+ 1753 / [BNV, álbum V5, foto 111]</line>
+					<line>Biblioteca Nacional de Venezuela, Archivos planos y multimedia</line>
+					</cell>
+				</row>
+				<row>
+					<cell>
+					<line><fillin/></line>
+					<line><em>«Plano de Cumaná»</em></line>
+					<line>José de Iturriaga (Comisión de Límites)</line>
+					<line>1754 / [MN. Signatura: 30-A-7]</line>
+					<line>Museo Naval de Madrid</line>
+					</cell>
+				</row>
+				<row>
+					<cell>
+					<line><fillin/></line>
+					<line><em>«Plano General de Cumaná y sus contornos»</em></line>
+					<line>Juan Antonio Perelló</line>
+					<line>+ 1774 / [AGI,MP-Venezuela, 178]</line>
+					<line>Archivo General de Indias de Sevilla</line>
+					</cell>
+				</row>
+				<row>
+					<cell>
+					<line><fillin/></line>
+					<line><em>«Plano General de la Ciudad de Cumaná y sus Contornos»</em></line>
+					<line>1777 / [S.G., Venezuela, 76]</line>
+					<line>Agustín Crame</line>
+					<line>Servicio Geográfico del Ejercito, Madrid</line>
+					</cell>
+				</row>
+				<row>
+					<cell>
+					<line><fillin/></line>
+					<line><em>«Plano que comprehende la boca del Golfo de Cariaco, </em></line>
+					<line><em>Puerto Escondido, Ensenada del Campanarito, parte del Puerto de Mochima,</em></line>
+					<line><em>Puerto de Manare y el fondeadero y Ciudad de Cumaná»</em></line>
+					<line>1793 / [MN. Signatura: 30-D-2]</line>
+					<line>Joaquín Francisco Fidalgo<fn>«Portulano de la America Setentrional. Construido en la Direccion de trabajos hidrográficos. Dividido en quatro partes. Madrid 1809» [Cartoteca del Archivo General Militar de Madrid, signatura AT-33].</fn></line>
+					<line>Museo Naval de Madrid</line>
+					</cell>
+				</row>	
+			</tabular>
+		</table>						
+
+
+	<introduction xml:id="introducion_2">
+	<!--
+		<blockquote >
+			<title >Nada puede ser temido</title >
+			<p>
+				<q>Nada en la vida debe ser temido, solo debe ser entendido. Ahora es el momento de entender más, para que podamos temer menos.</q>
+			</p>
+			<attribution>Marie Curie</attribution >
+		</blockquote >	
+		-->
+		
+	</introduction>
+
+		<section xml:id="traza_calles">
+			<title>La traza de las calles del Centro Histórico de la Ciudad de Cumaná</title>
+
+			<introduction>
+
+				<!-- #### Reticulado del Centro Histórico de la ciudad de Cumaná ##### -->
+				<sidebyside widths="30% 65%" margins="0% 0%" valigns=" bottom bottom ">
+					<p>El lento pero franco proceso de desarrollo urbano que se da inicio en el villorrio realengo sin trazas de calle —el pueblo de <em>Córdoba</em>, luego la <em>Nueva Córdoba</em>— a la boca de <em>río Cumaná</em> y culmina en el centro histórico de la actual <em>Ciudad de Cumaná</em>; sucede en la ribera del río. Se inicia frontal al puerto de navíos, pero culmina a media legua siguiendo la ribera oriental del río: <em>donde al presente está</em> <xref ref="contreras_0"/>.</p>
+					<figure xml:id="reticulado_centro">
+						<caption> - Reticulado del Centro Histórico de la ciudad de Cumaná: Estructura y configuración que se logró luego de la mudanza de la ciudad a finales del año 1582; bajo el gobierno del Teniente de Gobernador Pedro García Camacho<xref ref="contreras_0"/>. Con el cauce del río sobrepuesto en azul; la Plaza Mayor, la Iglesia Parroquial y el Castillo de Santa María de la Cabeza, en amarillo (Fotografía aérea: Cartografía Nacional, 1937).</caption>
+						<image source="imagenes/orden_enLa_traza_de_la_ciudad.jpg" width="25%" margins="auto"/>
+					</figure>
+				</sidebyside>				
+				
+				<p>Desde finales de 1582<fn>En el Archivo de Indias de Sevilla, entre muchos, reposa un documento en extremo valioso para el estudio del pasado de la ciudad de Cumaná: bajo la signatura «AGI. Santo Domingo 187, R1. N1». La carta relación de Pedro García Camacho está fechada en <em>«Cumaná que llaman la Nueva Córdoba»</em> de <em>«la Nueva Andalucía»</em> el 5 de enero de 1583. Entre otros comentarios, afirma: <em>“He mudado este pueblo. Donde al presente esta rivera [del río] todos están con mucho gusto y contento, quiera Dios N. S. [..vaya] a ser muy buen pueblo, por el mucho regalo que tiene de agua y seguridad de enemigos”</em> .</fn> la estructura urbana de Cumaná intentó respetar las leyes vigentes para la construcción de ciudades retiradas del margen costero. Se respeta la orientación de la iglesia primogénita hacia el este y lateral a ella se deja espacio para la Plaza Mayor: es imposible estructurar la traza de sus calles de acuerdo al perfecto damero rectangular tradicional con que los españoles sembraron la América de pueblos y ciudades. Se intenta un orden; que fue respetado, aún permanece su reticulado de cuadras trapezoidales en el Centro Histórico de la ciudad (Contreras, R., 2015-A. Obra citada).</p>
+				
+				<p>Contrario a lo expresado por otros autores e instituciones, como la Academia Nacional de la Historia [entre ellos su antiguo presidente Dr. Guillermo Morón; <xref ref="moron_1"/>, <xref ref="moron_2"/>], que objetan el magnífico estudio de don Pedro Elías Marcano, alegando entre muchos disonantes, la imposibilidad de que existieran construcciones en fechas posteriores a 1773, en el sitio entre el castillo de San Antonio y la plaza de armas del fuerte de Santa María de la Cabeza: La cartografía de la ciudad de Cumaná, de la segunda mitad del siglo XVIII muestra que la ocupación y habitabilidad del lugar permaneció inalterable hasta ya entrado el siglo XIX, incluso hasta después del nacimiento del <em>Abel de Colombia</em>; pero no así, luego de la carnicería y destrucción que inicia Boves en Cumaná en 1814 y se prolonga durante los sucesivos años de guerra.</p>
+			
+			</introduction>
+            
+		</section>			
+		
+		<section xml:id="levantamiento-detallado">
+			
+			<title>El levantamiento detallado de la ciudad de Cumaná a mediados del siglo XVIII</title>
+			
+			<introduction>
+			
+				<p>Entre las muchas expediciones de carácter científico enviadas al Nuevo Mundo, destaca, La Expedición de Límites, Expedición Secreta o Expedición al Orinoco: <em>«la primera expedición científica del siglo XVIII, completamente española en sus orígenes y organización»</em> <xref ref="lucena_1"/>.  Fue consecuencia del tratado de Madrid del 13 de enero de 1750, que intentó acordar los límites entre España y Portugal. El cargo de Primer Comisario de la Expedición de Límites y Jefe de la Escuadra de la Real Armada recayó sobre José de Iturriaga; recién nombrado Caballero de Santiago, con una gran experiencia en la defensa de las posesiones españolas en el Caribe (la Habana, Puerto Cabello y la Guaira). La expedición parte desde Cádiz el 15 de febrero de 1754, tras 54 días de navegación, sin aviso previo<fn>Por su carácter secreto e intereses políticos y científicos: dirigir el trazado de la línea fronteriza; la expulsión de los holandeses del margen oriental del Esequibo y el estudio de la quina de Guayana (entre otros).</fn>, el 10 de abril por la mañana llegan en sendos navíos a Cumaná; la fragata: <em>La Pura y Limpia, concepción y San Marcos</em> <xref ref="loc_1"/> y otro navío llamado <em>Santa Ana</em> <xref ref="lucena_0"/>. Era la Cumaná de mediados del siglo XVIII, la única ciudad y puerto en la Nueva Andalucía, con posibilidad de atender aquel considerable número de científicos: geógrafos, astrónomos, ingenieros, marinos, militares, dibujantes, médico y botánicos; antes de que partieran a su destino final, hacia el sur, al Orinoco y también al Esequibo.</p>
+				
+				<p>Los miembros de la Expedición de Límites a su llegada levantan en detalle el plano de la ciudad de Cumaná; también sus costas e islas cercanas. Constancia de ello se encuentra en el plano cuyo original reposa en la colección del Museo Naval de la Armada española en Madrid, bajo la signatura [MN: 30-A-7]: <em>«Plano de una parte de la ciudad de Cumaná con el Castillo de San Antonio»</em><fn>En la colección del Museo Naval de la Armada española está intitulado como [Plano de una parte de la ciudad de Cumaná con el Castillo de San Antonio], se presenta sin fecha y le asignan la autoría a:  Jph. Solano, Antonio Urrutia y Eugenio Alvarado (<url href="http://bvpb.mcu.es/es/consulta/registro.cmd?id=434661"/>).</fn>; que puede considerarse como el levantamiento topográfico más preciso de la ciudad y del río, hasta la fecha de su creación.  Muestra una ciudad que se extiende desde el antiguo barrio de Chiclana hasta algo más allá de la iglesia parroquial (actual iglesia Santa Inés). Está levantado mediante el uso de técnicas topográficas muy refinadas, de las cuales se deja constancia sobre el mismo plano; mediante líneas tenues y puntos planimétricos. Para su elaboración, se utilizaron los instrumentos científicos más sofisticados de la época (telescopios, cuartos de círculos, teodolitos, planchetas, libros, anuarios astronómicos, etc.). En 1754, ese bullicio científico despertó a Cumaná y Guayana.</p>
+				
+			</introduction>
+		</section>
+		
+		
+		<section>
+		
+		<title>La Expedición Secreta: referente del sitio de la Casa Natal de Antonio José de Sucre</title>
+			
+			<p>El Gobernador y Capitán General de la Nueva Andalucía, Coronel Mateo Gual y Puello, en acatamiento de la Cédula Real que le presenta Iturriaga a su llegada a Cumaná<fn>[Archivo General de Simancas, Estado 7375] Real Cédula al gobernador de Cumaná. Firmada en Aranjuez el 19 de junio de 1753 <xref ref="pereda_0"/>.</fn>, facilita y dispone el alojamiento de todos los expedicionarios; dando lugar preferente a los oficiales de mayor jerarquía. Un total de 25 expedicionarios, más doce criados; de acuerdo al Expediente de Información y licencia de pasajeros a Indias otorgado en Cádiz al Capitán de Navío José de Iturriaga, el 15 de diciembre de 1753 [AGI, Contratación, 5496, N.2, R.2]. El segundo comisario de la expedición, Eugenio de Alvarado, redacta una Relación Histórica de los sucesos; entre muchos, es relevante el siguiente comentario: <em>“Al día siguiente que era Jueves Santo, la comitiva recién llegada tomó alojamiento en las mejores casas que permitía el país”</em>  <xref ref="alvarado_0"/>.</p>
+			
+			<p>En el plano de Cumaná de 1754 [MN: Signatura: 30-A-7], se indica mediante el nombre de sus ocupantes, escrito en tinta negra sobre el área de los inmuebles resaltadas en color carmín, los alojamientos de algunos de los miembros de la Expedición Secreta [<xref ref="lugares_alojamiento"/>]: <em>«Dn. Jph Yturriaga»</em>, <em>«Dn. Eugenio Albarado»</em>, <em>«Dn. Antonio Urrutia»</em>, <em>«Dn. Jph Solano»</em>, y <em>«Santos»</em> (sin prefijo ni nombre).  Los nombres indicados en el plano, se corresponden estrictamente a los nombres señalados en la Información y Licencia de pasajeros a indias antes señalada :  <em>«el Capitán de Navío Dn. Joseph de Yturraga, Coronel de Ynfantería Dn. Eugenio de Alvarado, los Capitanes de Fragata Dn. Antonio de Urrutia, […], el Theniente de Navío Dn. Joseph Solano, <ellipsis/> »</em>.    En cumplimiento de las normas y del protocolo militar, los alojamientos fueron otorgados en satisfacción de las jerarquías militares y en correspondencia al hecho de que una vez llegados a Cumaná se abrieron los legajos lacrados y secreto, con instrucciones de ascender a toda la oficialidad al grado inmediato superior; nuevas jerarquías, nuevos   nombramientos, nuevas responsabilidades y nuevas comisiones.</p>
+			
+			<p>El Primer Comisario de la Expedición y Jefe de la Escuadra, don José de Iturriaga, disfrutó del mejor alojamiento de los asignados. Le correspondió una casa <em>“en alto”</em><fn>El autor se refiere a una casa de dos plantas, típica andaluza: “No pasan de siete las casas en alto y las bajas tienen todas la primera sala al andar de la calle, de manera que ésta y la otra se separan por una débil puerta” <xref ref="alvarado_0"/>.</fn> ubicada lateral a la plaza de armas del fuerte de Santa María de la Cabeza; al pie de la eminencia coronada por el castillo de San Antonio, lateral a un camino indicado que permitía y aún permite el tránsito entre ambas fortalezas. El sitio de ese inmueble tiene una correlación univoca e inequívoca, con el señalado por don Pedro Elías Marcano <xref ref="PEM_0"/>, como el lugar donde estuvo construida la casa de nacimiento de Antonio José de Sucre en 1795.</p>
+			
+			<!-- ### Alojamiento, de los principales miembros de la Expedición Secreta ### -->			
+			<figure xml:id="lugares_alojamiento">
+				<caption> - Lugares de alojamiento, de los principales miembros de la Expedición Secreta, indicados en el plano de Cumaná de 1754, [MN, Signatura: 30-A-7].</caption >
+				<image source ="./imagenes/alojamientos.jpg" />
+			</figure > 			
+						
+		</section>
+			
+		<section>
+		
+			<title>El plano de los Guardias Marinas</title>			
+			
+			<p>Los más antiguos y finos detalles de los alrededores del castillo o fuerte de Santa María de la Cabeza, están indicados en un plano de autor desconocido, <em>«Plano de la ciudad de Cumaná en la Nueva Andaluzía»</em> [BNV, álbum V5, foto 111]. Por estar referenciado al meridiano del Real Observatorio de Cádiz, se elaboró  posterior a 1753 (indicado: +1753)<fn>Este plano, cuya copia fotográfica puede consultarse en la sección de Medios Planos de las Biblioteca Nacional, tuvo que ser levantado posterior a la fecha de creación del Real Observatorio de Cádiz; el cual se construyó anexo a la Academia de Guardias Marinas. El Observatorio fue creado por propuesta del marino y científico Jorge Juan en 1753. Posiblemente el plano [BNV, álbum V5, foto 111] fue elaborado por los Guardias Marinas de la Expedición de Límites de 1754; ya que presenta similitudes respecto a los detalles y a las técnicas empleadas para la elaboración del plano [MN, Signatura: 30-A-7]. Pero desde el punto de vista cartográfico no están lejanos en su elaboración, ni espacial, ni temporalmente.</fn>.</p>
+			
+			<!-- ####### Planos y mapas de la Comisión de Límites ########## -->
+			<figure  xml:id="guardaia_marina_detalles_doble">
+			<caption> - a) El plano de la <em>«Ciudad de Cumaná en la Nueva Andaluzia ...»</em>;  [BNV, álbum V5, foto 111]. Posiblemente realizado por los Guardias Marinas que vinieron en la Expedición de Límites 1745. b) Detalle del Plano: Muestra los inmuebles, traza de las calles y la <em>Plaza de Armas</em> en los alrededores de Fuerte de Santa María, cerro Quetepe y barrio San Francisco. La casa donde se alojó el José de Iturriaga, esta resaltada en amarillo (Contreras, R.).</caption>
+			<sidebyside widths ="50% 40%" margins ="0% 0%" valigns ="bottom bottom ">
+
+				<figure xml:id="plano_guardiamarinas_a">
+					<image source="./imagenes/cumana_nueva_andalucia_1753_detalle_trazas.jpg"/>
+				</figure>
+				
+				<figure xml:id="plano_guardiamarinas_b">
+					<image source="./imagenes/1754_plano_guardiamarinas_digital.jpg"/>
+				</figure>
+				
+			</sidebyside>
+			</figure>				
+			
+			<p>En el plano de los Guardias Marinas (alias sugerido)<fn><em>“… a Don Ignacio Milhau, el cual fue elegido para Geógrafo de esta expedición en el estado de Guardia Marina, …. a los Guardias Marinas Don Vicente Doz y Don Nicolás Guerrero, que fueron sin ascenso a trabajar con Don José Solano y se han aplicado tanto que pueden servir de Geógrafos”</em> <xref ref="amezaga_0"/></fn>, se detalla las trazas de las calles de la Cumaná de mediados del siglo XVIII. En el barrio San Francisco, son notables las insipientes estructuras de las construcciones que se consolidan en el cerro Quetepe y aledaños de la <em>Plaza de Armas del fuerte de Santa María de la Cabeza</em>. Es uno de los más importantes referentes cartográfico respecto al retorno del río Cumaná al cauce del siglo XVI, luego del forzado cauce de barlovento <xref ref="contreras_0"/>.</p>
+			
+			<p>Entre otros, es relevante el trazado detallado del inmueble que ocupó el Capitán de Navíos Jose de Iturriaga en 1754; resaltado amarillo de la <xref ref="lugares_alojamiento"/>. Más que otros, el plano de los Guardias Marinas, permite reconstruir el tramado urbano en los alrededores del noble sitio objeto de esta investigación.</p>
+		
+		</section>
+
+		<section>
+		
+			<title>El plano de Juan Antonio Perelló de 1774</title>	
+			 
+			<p>El Ingeniero Delineador don Juan Antonio Perelló, recibió licencia para embarcarse a Cumaná el 11 de junio de 1768 . A su llegada, consigue una ciudad desarreglada, e impactada por el violento terremoto del 21 de octubre de 1766; <em>«fue a una vez el más funesto para los colonos y el más notable para la historia física del país… fue enteramente destruida la ciudad de Cumaná»</em> <xref ref="humboldt_0"/>. Perelló para atender la comisión de reorganizar la ciudad, levanta el <em>«Plano General de Cumaná y sus contornos»</em> [AGI, MP-Venezuela, 178]. Su cartografía deja constancia de la ocupación de los nuevos espacios; organiza un nuevo pueblo para los Guaiqueríes de El Salado.</p>
+
+		    <!-- ####### Detalle del Centro de Cumaná en Perello 1774 ######### -->		
+			<figure xml:id="detalle_perello">
+				<caption> - Detalle del centro de la ciudad de Cumaná en el plano de Juan Antonio Perelló [AGI, MP-Venezuela, 178]. En amarillo están indicadas la ocupación de los nuevos espacios y reordenamiento de la ciudad; señala la futura <em>calle de Belén</em> (letra k del plano; actual <em>calle Montes</em>). Muestra el delineado del curso del caño de Santa Catalina (la letra o).</caption >
+				<image source ="./imagenes/1774_cumana_perello_01.jpg" />
+			</figure >
+
+			<p>En el plano de Perelló de 1774, el barrio San Francisco, presenta una estructura reticular consolidada, con la firme expresión de las trazas de sus calles; reticulado que hemos heredado intacta. Muy poco difiere del plano de los <em>Guardias Marinas</em> (+1753); sobre todo en el entorno de la Plaza de Armas del fuerte de Santa María de la Cabeza. En ambos planos, son identificables, las trazas antiguas de las actuales calles de la ciudad, entre otras: <em>Urica</em> (resaltado vede), <em>Badaracco Bermúdez</em> (resaltado amarillo), <em>Sucre</em> (resaltado azul) y <em>La Luneta</em> (resaltada en naranja); colores referidos a: <xref ref="calle_luneta"/> y <xref ref="barrio_san_francisco"/>. Lo que nos permite configurar con precisión la estructura urbana de ese sector de la ciudad a mediados del siglo XVIII. </p>
+
+			<p>El relleno color carmín de los espacios urbanos, indica la forma de los inmuebles consolidados o construidos y también expresa la extensión o el área que ocupaban. En amarillo: se muestra lo planificado o espacios por construir, demoler o alterar (colore de uso tradicional y formal en la cartografía española del siglo XVIII).</p>
+			
+			<p>En 1774, cuando el Ingeniero Perelló levantó el plano de Cumaná y sus alrededores, la casa donde se había alojado don José de Iturriaga en 1754, permanecía de pie e incólume. Aún restaban 21 años para el nacimiento del Gran Mariscal de Ayacucho.</p>
+		
+		</section>
+
+		<section>
+		
+			<title>La traza característica de la <em>calle La Luneta</em></title>
+			
+			<p>Al parecer esta calle toma el nombre de Luneta derivado de una estructura militar, que se encontraba en la proximidad de su entrada norte para 1821; cuando el gobierno de José Caturla (<em>La Cuneta del Príncipe</em>)<fn><em>«Las baterías de San Felipe, Santa María, la Cuneta del Príncipe y de la cabeza del puente abrieron también un fuego mortífero sobre los asaltantes: éstos por su parte nos enviaron varios botes de metralla a favor de una pieza de bronce que nos hacía mucho daño»</em> <xref ref="sevilla_0"/></fn>. La <em>calle de la Luneta</em> es ancha en su entrada norte y estrecha hacia la calle <em>Urica</em> (resaltado verde en <xref ref="calle_luneta"/> y <xref ref="barrio_san_francisco"/>), forma que mantuvo al paso de los siglos; lo que permite con gran facilidad (por extensión del eje de la calle), identificar el lugar que ocupaban las casas frontales a la <em>Plaza de Armas del Castillo de Santa María de la Cabeza</em>.</p>
+			
+			<p>La extensión actual de la <em>calle de La Luneta</em> no existía en el siglo XVIII, es una vía secundaria de servicio de mediados del siglo XIX: va por detrás de la Iglesia Santa Inés y pie de la eminencia de San Antonio; (resaltado -naranja rayado- en la <xref ref="calle_luneta"/>, entre la <em>Rivero</em> en morado y la <em>Badaracco Bermúdez</em> en amarillo). No estaba allí cuando el nacimiento de Antonio José de Sucre; su traza y construcción se realiza sobre parte del terreno que ocupó el sagrado y olvidado sitio de su nacimiento.</p>
+
+		    <!-- ####### Calle La Luneta ######### -->			
+			<figure xml:id="calle_luneta">
+				<caption> - <em>Calle de La Luneta</em> (resaltado naranja sólido) y su extensión (naranja rayado); entre las calles: <em>Rivero</em> (en morado) y la <em>Badaracco Bermúdez</em> (en amarillo). Esta extensión data de mediados del siglo XIX; no existía en el siglo XVIII. (<acro>C.N.</acro> misión 40).</caption >
+				<image source ="./imagenes/fa0402-B-40-627B_detalle_coloreada.jpg" />
+			</figure >				
+
+		    <!-- ####### El barrio de San Francisco ######### -->
+			<figure xml:id="barrio_san_francisco" >
+				<caption> - El barrio <em>San Francisco</em> de Cumaná. Arriba, a la izquierda: <em>«el plano de Los Guardiamarinas»</em> [BNV, álbum V5, foto 111]. A la derecha, <em>«el plano de Perelló»</em> (MP - Venezuela, 178). Debajo: fotografía aérea de 1937 (<acro>C.N.</acro> misión 40).  La traza de las actuales calles: <em>Urica</em> (resaltado vede), <em>Badaracco Bermúdez</em> (en amarillo), <em>Sucre</em> (en azul) y <em>La Luneta</em> (en naranja). En la fotografía aérea se puede observar (extendiendo el eje de la <em>calle La Luneta</em> hacia el norte), el monumento construido de acuerdo al decreto del General Eliseo Sarmiento de 1913 (Contreras, R.).</caption >
+				<image source ="./imagenes/barrio_san_francisco.jpg" width="80%"/>
+			</figure >	
+
+		</section>
+		
+		<section>
+			
+				<title>Los planos y planes de Agustín Crame en 1777</title>
+				
+				<introduction>
+				
+				<p>El «Gran Visitador», el ingeniero militar Extraordinario de origen cubano, Brigadier Agustín Crame y Mañenas<fn>El Brigadier D. Agustín Crame y Mañenas (Ingeniero Extraordinario en 1750 y Brigadier en 1777) reconoció todas las fortificaciones desde Guayana a la Florida, dando cuenta de ello al rey Carlos III, con sus informes y planes de defensa. Proyectos, mapas, documentos y reproducciones se conservan en el Servicio Geográfico del Ejército / Servicio Histórico Militar en Madrid.</fn>, fue inspector de las posesiones españolas en el Caribe. Llega a Cumaná en 1776, con amplios poderes y la confianza de la Junta de Fortificaciones y Defensa de Indias. La Corona le concede amplios poderes para estos fines y advierte al gobernador y Capitán General de la provincia de Venezuela: de no proceder con ninguna obra militar, sin la previa aprobación del inspector <xref ref="dic_polar_0"/>.</p>
+				
+				</introduction>
+				
+				<p>Entre las muchas diligencias que adelantó el Brigadier e Ingeniero Agustín Crame en la Nueva Andalucía -Provincia de Cumaná-, destacan <xref ref="crame_0"/>:</p>
+				
+				<ul label="circle">
+					<li>
+						<p>«Plano General de la Ciudad de Cumaná y sus Contornos» [S.G., Venezuela, 76].</p>
+					</li>
+					<li>
+						<p>«Quartel Proyectado para tres Compañías de Ynfantería en Cumaná» [Ao-j-T-8-Ca-2a-no 79].</p>
+					</li>
+					<li>
+						<p>«Plan de defensa para la provincia de Cumaná».</p>
+					</li>
+				</ul >              
+				
+				<p>A primera vista, el plano del Brigadier Cramer, poco difiere del levantado por el Ingeniero Perelló; pero el conjunto refinado de detalles y su precisión, marca un hito en la cartografía cumanesa:</p>
+				
+				<blockquote>
+				    <p><em>«Este plano es una suma de saberes cartográficos sobre Cumaná, además muestra las consecuencias del desvío del río en el primer cuarto del siglo XVII: el lugar que otrora fuera puerto para grandes embarcaciones, aparece ocupado por un gran banco de arenas “La Puntilla” que se hundió y desapareció cuando el terremoto de 1853. Hoy continua como puerto, pero para la flota pesquera y embarcaciones deportivas. El mapa del ingeniero Crame destaca entre muchos; es como una bendición para el estudio de Cumaná»</em> <xref ref="contreras_1"/>.</p>
+				</blockquote>
+				
+		        <!-- ####### Plano General de la Ciudad de Cumaná 1754 ######### -->				
+				<figure xml:id="crame_1">
+					<caption> - «Plano General de la Ciudad de Cumaná y sus Contornos» [S.G., Venezuela, 76], anteriormente signado [A°-J-T-8-Ca-2a-N°76. (S.G.)]; Joaquín Crame, 1777.  Escala de 1000 varas castellanas. Tamaño 55 x 43 cm. El original reposa en el Servicio Geográfico del Ejército, en Madrid.</caption >
+					<image source ="./imagenes/agustinCrame1777.jpg" width="80%" margins="auto"/>
+				</figure >
+
+                <blockquote>
+				<note xml:id="vara_castellana">			
+					<p><term>La Vara Castellana</term>: Ptolomeo dividió al mundo en <em>«trescientos y sesenta grados de largura y en otros tantos de anchura, que, como es redondo, es tan ancho cuanto largo»</em> (Gómara, 1551 <xref ref="gomara_0"/>). Multiplicando las leguas en un grado sexagesimal, veinte (de las de <m>20 \;  al \; grado</m>), por <m>360^{\circ}</m>; se obtiene como resultado la medida de la circunferencia de la Tierra en leguas: <m>7200 \; leguas</m>. Desde la antigüedad es aceptado que a cada legua (indistintamente de su tipo) le corresponden <m>20000 \; pies</m> —cada tres pies es la medida de una vara castellana—. Entonces: podemos equivaler la vara castellana a metros, utilizando un valor aproximado de la circunferencia terrestre (<m>40000 \; km</m>), la expresión: <m>\left[\left(40000 \; km \div 7200 \; leguas \right) \times 1000 \;  m\>  \right]</m> refleja el valor de la legua en metros: <m>5555,55\; m</m>. Dividiendo este último resultado por <m>20000 \; pies</m> y luego multiplicando por <m>3</m>, obtenemos la vara castellana en metro: <m>~ 0,84 \; m</m>; el valor aceptado es <m>0,8359 \; m</m> (Contreras, R.).</p>
+				</note>
+                </blockquote>				
+				
+				<p>Agustín Crame incorpora detalles en sus planos (militares y cartográficos), que evitan cualquier equívoco respecto al lugar de residencia del Coronel don Vicente Sucre al momento del nacimiento de su hijo, Antonio José. Delimita en forma gráfica —producto de levantamientos topográficos y planimétricos— el perímetro de los espacios que ocupaban las viviendas frontales a la <em>«plaza delante del cuartel»</em> de fuerte de <em>Santa María de la Cabeza</em>; para 1777.</p>
+				
+				<p>Traza la ciudad de Cumaná sobre el eje que une la <em>Plaza Mayor</em> con el <em>convento de Santo Domingo</em>, verificando el original reticulado trapezoidal de sus inicios; desdibujado por los nuevos barrios (El Toporo, La Chiclana, y San Francisco). El pueblo de los Guaiqueríes, en el margen izquierdo del río presenta un orden de damero rectangular incipiente (actual <em>plaza Bermúdez</em>), apegado al diseño de 1774 del ingeniero Perelló. La <em>calle de Belén</em> (en lo que otrora fuera el barrio El Toporo), aún no se define en el espacio que ocupaba el cauce antiguo del río; cuando el siglo XVI y primer cuarto del XVII <xref ref="contreras_0"/>, el Brigadier Crame simplemente lo llama <em>«Playa o Río Seco»</em> (indicado en su plano con la letra O: hoy ocupado -en parte- por el Liceo Sucre y la totalidad de las cuadra frontales y sucesivas). Sin embargo, producto de un orden que extraviamos; la ciudad actual (en los espacios de la antigua madre vieja del río): tiene la configuración pensada y legada por el Ingeniero Juan Antonio Perelló en 1774.</p>
+
+		        <!-- #### Alrededores del Castillo de Sanata MAria de la Cabeza ##### -->				
+				<figure xml:id="crame_2">
+					<caption> - Detalle de los alrededores del <em>Castillo de Santa María de la Cabeza</em>, en el Centro Histórico de Cumaná [<xref ref="crame_1"/>].</caption >
+					<image source ="./imagenes/014_1_carto_vnzla detalle_amarillo.jpg" />
+				</figure >				
+				
+				<p>El plano de Cumaná del Brigadier Crame, posee un carácter militar, agrega una batería de seis cañones que había planificado en la boca del <em>río Cumaná</em> (actual Manzanares)  y una edificación proyectado para tres compañías de infantería; resaltado amarillo, indicado con la letra S (<xref ref="crame_2"/>); frontal a la «Plaza delante del Cuartel» (la Plaza de Armas del fuerte de Santa María de la Cabeza, letra B). Este agregado, es una bendición del Ingeniero Crame para la presente investigación y la memoria del Gran Mariscal de Ayacucho. El plano de ese cuartel detalla la <em>Plaza de Armas del fuerte de Santa María de la Cabeza</em> y «algo» más.</p>
+
+			<subsection>
+			
+				<title>El Plan de Defensa para Cumaná, del Brigadier de Ingenieros Crame</title>
+				
+				<p>El Gran Visitador y Brigadier de Ingenieros Agustín Crame, levanta un Plan de Defensa para la provincia de Cumaná<fn>«Plan de Defensa para la provincia de Cumaná, hecho de orden del rey por el Brigadier de Ynfantería don Agustín Crame, de acuerdo con el Coronel don Maximo Du-Bouchet, gobernador, y Comandante General de dicha provincia». Comprende 66 folios [Signatura 5-3-12 no 6979 (S. H.)]; el texto completo de los puntos que los componen en <xref ref="crame_0"/>. Trascripción completa en <xref ref="suarez_0"/>.</fn>, donde planifica los quehaceres tácticos y estratégicos de la tropa acantonada en los pueblos y ciudades de la provincia. Recomienda fortificar algunos sitios de la extensa geografía, en el punto No. 11 de su Plan de Defensa: sugiere para la ciudad de Cumaná (además de la <em>Batería de la Boca del río</em>), la construcción de un cuartel para tres compañías de infantería; contiguo a la <em>Plaza de Armas del fuerte de Santa María de la Cabeza</em>:</p>
+
+		        <!-- ####### plano de los guardiamarinas digitalizado ######### -->				
+				<sidebyside widths="30% 65%" margins="0% 0%" valigns=" bottom bottom ">
+					<p><em>«A mas de las obras expresadas me parece preciso fabricar un Quartel para tres Compañias de Ynfanteria, el qual lo prolongo inmediato al Fuerte de Santa Maria en terreno bien ventilado, y como segun manifiesta el Plano Nº 4º. Este Quartel costará inclusos los solares y pequeñas casas que deven comprarse de 18 a 20 mil pesos. En el Plano de Cumaná y sus inmediaciones Nº 1 se ve la situación respectiva de todos los objetos que se citan.»</em> <xref ref="suarez_0"/>.</p>
+					
+					<figure xml:id="cuartel_3_companias">
+						<caption> - Cuartel para tres Compañías de Infantería, sugerido por Agustín Crame para  construir en Cumaná [Ao-j-T-8-Ca-2a-no 79; S.H.], <xref ref="crame_0"/>.</caption>
+						<image source="imagenes/Cuartel_de_las_tres_compañias_Crame_1777__miniatura.jpg" width="25%" margins="auto"/>
+					</figure>
+				</sidebyside>				
+				
+				<note>
+				<p>El plano No 1 referido por Crame, corresponde al plano ya comentado de signatura [S.G., Venezuela, 76], el No 4º («Cuartel para tres Compañías de Infantería»), corresponde al de signatura [Ao-j-T-8-Ca-2a-no 79]. Signaturas verificadas en el volumen descriptivo del compendio de Cartografía y Relaciones Históricas (tomo IV) publicado por el Servicio Histórico Militar y el Servicio Geográfico del Ejército español <xref ref="crame_0"/>. Ambos planos están incorporados al Anexo Cartográfico (ver detalle en <xref ref="crame_1"/> y <xref ref="cuartel_3_companias"/>).</p>
+				</note>
+				
+				<p>El ingeniero Agustín Crame reporta la existencia y necesidad de adquirir <em>«los solares y pequeñas casas»</em> existentes en el sitio seleccionado para la construcción del cuartel; aledaño a la <em>Plaza de Armas del fuerte de Santa María de la Cabeza</em>, pero hemos mostrado en la serie de cartogramas hasta ahora referidos y sobre todo el llamado «Plano de los Guardias Marinas», que no se trataba de una pequeña construcción.  Eran dos edificaciones bien consolidadas y otras de menor tamaño [<xref ref="plano_guardiamarinas_c_digital"/>]; por lo menos una de ellas (resaltado amarillo), fue lo suficientemente regia, para servir de alojamiento al Primer Comisario de la Expedición de Limites y Jefe de la Escuadra de la Real Armada en 1754. Otra razón tendría Crame para ocultar el alcance de su proyectado cuartel y las demoliciones que implicaban; que por lo costoso «de 18 a 20 mil pesos» (o por implicaciones de otra naturaleza) nunca se materializó; a pesar de la insistencia del rey, aún en mayo de 1779; [5-3-12 no 6979 (S. H.)]<fn>«Real Orden en que previene su majestad lo conveniente a poner a Cumaná en defensa», otorgada en Aranjuez, 25-05-1779 firmada por el titular de la Secretaría de Indias; contenida en el legajo del Plan de Defensa; [Signatura 5-3-12 no 6979 (S. H.)].</fn>.</p>
+				
+		        <!-- ####### detalles de plano de los guardiamarinas digitalizado ######### -->				
+				<figure xml:id="plano_guardiamarinas_c_digital">
+					<caption> - Detalle del Plano de los Guardiamarinas [<xref ref="guardaia_marina_detalles_doble"/>]. Frontal a la Plaza de Armas del Fuerte de Santa María, tenían preminencia las edificaciones resaltadas en amarillo y en gris (digitalizado por Contreras, R.).</caption >
+					<image source ="./imagenes/1754_plano_guardiamarinas_digital.jpg" width="70%"/>
+				</figure >				
+            
+			
+			</subsection>
+			
+			<subsection>
+			
+				<title>El Cuartel para tres compañías de infantería del ingeniero Crame</title>
+
+				<p>El Cuartel para tres Compañías de Infantería plantéa en 1777, nunca se materializó, pero el sitio seleccionado se detalló topográficamente; para la fortuna de los cumaneses y la memoria del Gran Mariscal Ayacucho.</p>
+
+                <p>En julio de 1790 (trece años luego del proyectado cuartel), don Pedro Carbonell gobernador y Capitán General de la provincia de Cumaná, informa al Capitán General de Venezuela don Juan Guillelmi, sobre el estado del <em>fuerte de Santa María de la Cabeza</em>, entre otras cosas dice:</p>
+				
+				<blockquote>
+				    <p><em>«No soy también de sentir el que se haga el cuartel proyectado por don Agustín Crame en el paraje que demuestra el Plano en la letra M. por hallarse colocado entre los dos castillos de San Antonio y Santa María porque impide los fuegos resíprocos para la defensa, como tam-bién por su maior costo de comprar de casas y solares, y muí perjudicial a los defensores y aunque halló el plan y la Real Orden para que se haga este Edificio aprobado por la Junta de Generales del Supremo Consejo de la Guerra con fecha de 25 de mayo de 1779, no encuentro en el Archivo noticia porque no se haya puesto en ejecución la obra de este Edificio, y si me persuado se hayan opuesto mis Antecesores a que se verifique su obra en el sitio que se demuestra en el Plano, por lo que soy de parecer que ni lo que propone don Casimiro Ysava ni don Agustín Crame se ejecute …»</em><fn>Comunicación del Gobernador de Cumaná para el Gobernador y Capitán General, donde le informa del estado en que se hallan las fortificaciones, pertrechos y demás cosas de guerra de su plaza. [A.G.N. GOCAGE, XLIV,109-111]; (GoCaGe : Gobernación y Capitanía General). En tiempos de hostilidades, desde la creación de la Capitanía General de Venezuela, el Capitán General de Caracas tenía autoridad sobre el Capitán Militar de Cumaná; pero no tenía autoridad política ni administrativa.</fn>.</p>
+				</blockquote>
+			
+			    <p>Por medio de José Gálvez (titular de la Secretaría de Indias), el 25 de mayo de 1799, el rey reconoce e insistía desde Aranjuez : <em>«El plan de Defensa de Crame está lleno de buenas reflexiones y combinado con los sólidos principios de guerra»</em>; pero a pesar de ello en Cumaná no le obedecieron <ellipsis/> ¡mucho menos a Guillelmi!</p>
+				
+				<p>Para atender las nuevas incorporaciones de personal de milicias y soldados veteranos sugeridas por el Ingeniero Agustín Crame en el Plan de Defensa para la provincia de Cumaná, era necesario el nuevo cuartel. No llego a materializarse, por desacuerdos de opinión y alegatos burocráticos y presupuestarios. Como ya está reseñado, el Ingeniero Casimiro Isava propone al gobernador de Cumaná don Pedro Carbonell y éste a su vez a Guillelmi, Capitán General de Venezuela, lo siguiente:</p>
+				
+				<blockquote>
+				    <p><em>«… derribe la parte siniestrada que servía de habitación de los Señores Gobernadores, desmonte terraplén, construya una cuadra para la tropa cubriéndola de bóveda .... y …. siguiendo lo restante del Castillo, en los mismos términos se concluirá el cuartel para la tropa … hallo el reparo de estar pendiente del proyecto hecho por el Ingeniero Don Agustín Crame, aprobado por S.M en el que dejó plano del cuartel para la tropa ...”</em>, también afirma: <em>“E debo decir a V.S. que sin embargo de que soy del mismo parecer de V.S de que en el día no hay sitio más a propósito para Cuartel de la tropa que el mencionado Castillo de Santa María ...»</em></p> <xref ref="suarez_0"/>.
+                </blockquote>
+				
+				<p>Para la fortuna de los cumaneses y memoria del Gran Mariscal Ayacucho, el ingeniero Agustín Crame nos legó los planos de su ampliamente comentado cuartel; bendita la discordia y dejadez cumanesa que impidió la construcción de la mencionada edificación. Porque además de habernos hecho más difícil la Liberación e Independencia, sin dichos planos no pudiéramos tener con matemática precisión la ubicación del lugar que nos ocupa y a su vez enmendar la insertidumbre del espacio real; dos siglos de olvido y desconsideración. El cuartel se iba a erigir sobre el sitio donde: años después, doña María Manuela traerá al mundo al futuro Gran Mariscal de Ayacucho.</p>
+
+				<!-- ####### Plano cuartel 3 compañias ######### -->				
+				<figure xml:id="plano_cuartel_1937">
+					<caption> - El plano del Cuartel proyectado por el ingeniero Cramer en 1777, sobrepuesto a escala sobre una fotografía del sector (fotografía aérea de 1937; <acro>C.N.</acro> misión 40). El entorno bordeado por la línea de color carmín, se corresponde a la <em>Plaza de Armas del castillo de Santa María de la Cabeza</em>. El área señalada en morado tenue, indica la extensión de las parcelas de las casas existentes en el lugar; al momento del proyectado <em>Cuartel para tres Compañías de Infantería</em> (Contreras, R.).</caption >
+					<image source ="./imagenes/area_ocupada_por_plaza_armas_y_casas.jpg" width="90%" />
+				</figure >
+			</subsection>
+		
+        </section>
+
+		<section>
+			
+			<title>Aproximación a las dimensiones de la Casa Natal del Gran Mariscal de Ayacucho</title>
+			
+			<introduction>
+<!-- ####### colocar el mapa completo para que alli apunte la referencia a la nota ###### -->				
+				<p>El Ingeniero Crame incorpora una nota explicativa en el plano del cuartel proyectado:</p>
+				<blockquote>
+					<p><em>«La disposición del Terreno por el frente P. ofrece construir los Almacenes bajo Q. R. capaces y necesarios para los pertrechos de Artillería. La línea de puntos de carmín manifiesta el terreno que ocupan actualmente algunas pequeñas casas con sus corrales»</em> [<xref ref="cuartel_3_companias"/>].</p>
+				</blockquote>
+							
+			</introduction>
+				
+			<p>Con la información de la escala incorporada en el plano <em>«de varas castellanas»</em> [<xref ref="vara_castellana"/>], a partir de la semblanza parcial de la planta del fuerte de Santa María de la Cabeza, visible en el plano del cuartel proyectado por el Ingeniero Crame en 1777: es posible dimensionar la <em>Plaza de Armas</em> e intentar un levantamiento parcelario del área de las casas señaladas por la línea de puntos de carmín. Se dimensiona la parcela norte, de las dos señaladas en el plano de los Guardias Marinas [<xref ref="plano_guardiamarinas_c_digital"/>], por ser la ubicada frontal a la Plaza de Armas, en el sitio donde se indica el hospedaje de José Iturriaga, en el plano de la Comisión de Límites de 1754 [<xref ref="lugares_alojamiento"/>]. <term>Solamente un levantamiento arqueológico, permitirá ubicar los cimientos de las antiguas construcciones en ese lugar, con plena exactitud.</term></p>	
+		
+			<figure xml:id="parcela_b">
+				<caption> - Levantamiento de la parcela norte, indicadas con líneas carmín, en el plano del Ingeniero Crame (1777) [<xref ref="cuartel_3_companias"/>]; parte del lugar donde pensaba construir un cuartel para tres compañías. A partir de la escala en varas castellanas inserta en el plano. (Levantamiento referencial; Contreras, R.)</caption >
+				<image source ="./imagenes/Parcela_b.jpg" />
+			</figure >	
+		
+
+		<table xml:id="parcelas_comparadas">
+			<title>Área de la parcela norte, frontal a la <em>Plaza de Armas del castillo de Santa Maríade la Cabeza</em>, utilizando las fuentes conocidas. Se desconoce si Pedro Elías Marcano reporta el área construida o el área de la parcela, por lo menos, en lo relativo al fondo y patios; lo más probable es que el considerara solamente el área de construcción o los cimientos de la casa original. (Contreras, R.).</title>
+
+			<!-- ####### Tabla comprativa medida de la parcela ######### -->
+			<tabular halign ="left">
+				<row bottom ="minor">
+					<cell>Fuente</cell>
+					<cell>área (<m>m^2</m>)</cell>
+					<cell>área (<m>varas^2</m>)</cell>
+					<cell>Perímetro (<m>m</m>)</cell>
+				</row>
+				<row>
+					<cell>Pedro Elías Marcano</cell>
+					<cell><m>882</m></cell>
+					<cell><m>1249,5</m></cell>
+					<cell><m>118</m></cell>
+				</row>
+				<row>
+					<cell>Cartografía siglo XVIII</cell>
+					<cell><m>1048</m></cell>
+					<cell><m>1485,3</m></cell>
+					<cell><m>146</m></cell>
+				</row>
+
+			</tabular>
+		</table>
+		
+		<subsection>
+			
+			<title>Señalada por científicos: geografos, marinos, navegantes y astrónomos</title>
+			
+        <p>Don Joaquín Francisco Fidalgo, llega a Cumaná en compañía del don Cosme Damián de Churruca y Elorza en 1793<fn>. Pedro Elías Marcano, en su reporte sobre esos visitantes dice: <em>“Churruca se hospedó en Cumaná, en la casa de Don José Sánchez y Alcalá, que era aventajado en Astronomía y Cosmografía” </em> <xref ref="PEM_2"/>; nada dice del hospedaje de Fidalgo <ellipsis/></fn>; ambos marinos, navegantes y astrónomos aventajados. Vienen a levantar con exactitud la <em>«Carta Hidrográfica de las Costas de Tierra Firme»</em>. Luego de un conjunto de observaciones, determinan la posición geográfica del <em>Castillo de San Antonio</em> <xref ref="rohl_0"/>; donde pernotan muchas veces en compañías de connotados amigos y curiosos; y quizás de sus vecinos más próximos: Los Sucres. </p>
+		
+		<p>Corresponde a Fidalgo el mando de la segunda división de bergantines del rey: <em>«Empresa»</em> y <em>«Alerta»</em>: <em>“aunque con infinitos tropiezos dificultades y largas interrupciones, ha permanecido en aquellos parages de su destino prosiguiendo según las ocurrencias lo han permitido en el desempeño de la comisión”</em> <xref ref="espinosa_0"/>, concreta el mejor levantamiento de las costas cumanesas y sus inmediaciones.  Uno de sus planos (que es casi una obra de arte llena de datos científicos), es el <em>«Plano que comprehende la boca del Golfo de Cariaco, Puerto Escondido, Ensenada del Campanarito, parte del Puerto de Mochima, Puerto de Manare y el fondeadero y Ciudad de Cumaná …»</em> [MN. Signatura: 30-D-2]; trae una representación ligera de la ciudad de Cumaná (era un plano para la costa, no para representar los pueblos y ciudades). Sin embargo, la pericia le permite mejorar la información cartográfica de Cumaná; quizás en agradecimiento a sus refinados amigos de la ciudad. </p>
+
+		<!-- ####### Parsela Sucre en plano fidalgo 1793 ######### -->		
+		<figure xml:id="fidalgo_detalle">
+			<caption> - Detalle del plano de Cumaná y sus inmediaciones, levantado por Joaquín Francisco Fidalgo en 1793: <em>«Plano que comprehende la boca del Golfo de Cariaco, Puerto Escondido, Ensenada del Campanarito, parte del Puerto de Mochima, Puerto de Manare y el fondeadero y Ciudad de Cumaná …»</em> [MN. Signatura: 30-D-2] <xref ref="contreras_1"/>.</caption >
+			<image source ="./imagenes/Casa_sucre_1793.jpg" />
+		</figure >		
+		
+		<p>Del plano de Fidalgo de 1793, se puede concluir, que la parcela frontal a la Plaza de Armas (resaltado amarillo <xref ref="fidalgo_detalle"/>), para esa fecha, aún tenía levantada una construcción estable, alongada en el eje oeste-este; a tan sólo dos años del nacimiento de Antonio José de Sucre.</p>
+		
+        <p>Hemos mostrado la existencia de una casa en ese lugar, durante la última mitad del siglo XVIII; esperamos que ya no se tengan dudas de su existencia.</p>
+			
+        </subsection>
+
+		</section>
+
+		<section>
+		<title>Conclusión:</title>
+        <conclusion >
+		
+			<title>Conclusión sobre lo argumentado</title>
+				
+			<p>A finales del siglo XIX y principios del XX, se adelantó una investigación que motiva al Presidente del Estado Sucre, General Eliseo Sarmiento, a emitir el Decreto No 1079 del 19 de abril de 1913. El sitio determinado por la tradición y las investigaciones principalmente realizadas por don Pedro Elías Marcano, fue ennoblecido por el ejecutivo del Estado Sucre, con un <em>Monumento en memoria del Gran Mariscal de Ayacucho</em>. La <xref ref="lev_parcelario"/>, muestra la ubicación relativa y dimensiones aproximado de la <em>Plaza de Armas del fuerte de Santa María de la Cabeza</em> (resaltado azul). El área resaltada en ocre, se corresponde en el <em>plano de la Comisión de Límites de 1754</em>, con el lugar del hospedaje del Primer Comisario de la Expedición de Límites y Jefe de la Escuadra de la Real Armada, Jose Iturriaga y con la parcela norte de las referidas en el <em>plano de los Guardias Marinas</em> (resaltado amarillo en la <xref ref="detalles_cartograficos_a"/> y <xref ref="detalles_cartograficos_a_a"/>). Dicha parcela, es parte del área requerida por el Brigadier de Ingeniero Agustín Crame en 1777, para un proyectado cuartel para tres compañías de infantería. 
+			
+			Por su ocupada antigüedad verificada (+1753-1793), relevancia, ubicación, linderos, dimensiones y extensión longitudinal en el eje O-E (frente hacia el norte y patio hacia el sur): se puede afirmar que es la parcela original donde el Cronista de la Ciudad de Cumaná don Pedro Elías Marcano, señala la ubicación de la Casa Natal del Gran Mariscal de Ayacucho Antonio Jose de Sucre. Señalamiento que compartimos y hemos corroborado; utilizando fuentes y métodos distintos.</p>
+
+			<figure xml:id="lev_parcelario">
+				<caption> - Ubicación relativa y dimensionamiento aproximado de la <em>Plaza de Armas del fuerte de Santa María de la Cabeza</em> (resaltado azul). El área resaltada en ocre, se corresponde con la parcela norte de las referidas en el <em>plano de los Guardias Marinas</em>, se dibuja como está indicada en el <em>plano del Cuartel para las tres Compañías de Infantería</em> trazado por el Brigadier de Ingeniero Agustín Crame; en 1777 (Contreras, R.).</caption >
+				<image source ="./imagenes/Lev_parcelario.jpg" />
+			</figure >
+
+			<!-- ####### Conjunto de imagenes del proceso de analisis ######### -->
+			<sbsgroup>
+				<sidebyside widths ="44% 44%" margins="auto" valigns ="top top">
+					<figure xml:id="detalles_cartograficos_a">
+						<caption>Año 1754.</caption>
+						<image source ="./imagenes/1754_plano_guardiamarinas_a.jpg" />
+					</figure >
+					
+					<figure xml:id="detalles_cartograficos_a_a">
+						<caption>Año 1754 (digital).</caption>				
+						<image source="./imagenes/1754_plano_guardiamarinas_digital.jpg" />
+					</figure>
+				</sidebyside>
+				<sidebyside widths ="44% 44%" margins="auto" valign="middle">
+					<figure xml:id="detalles_cartograficos_b">
+						<caption>Año 1777 - 1937.</caption>			
+						<image source ="./imagenes/parcelas_1777_1937_a.jpg" />
+					</figure >				
+					<figure>
+						<caption>Año 1777 - 2015.</caption>				
+						<image source="./imagenes/parcelas_1777_1937_b.jpg" />
+					</figure>
+				</sidebyside>
+				<sidebyside width ="75% " valign ="bottom">
+					<figure>
+						<caption>Año 2015.</caption>					
+						<image source="./imagenes/entorno_actual_2022.jpg" />
+					</figure>
+				</sidebyside>
+			</sbsgroup>
+			
+			<!-- Leyenda del sbsgroup anterir -->
+			<p>Detalles cartográficos, de la linea de tiempo referida a las parcelas comentadas en el texto. La parcela indicada en naranja -atenuado-, se corresponde a la de la Casa Natal de Antonio José de Sucre, según el resultado de la investigación realizada. Es posible mejorar estos resultados haciendo uso de técnicas más refinadas y de levantamientos topográficos detallados del lugar.  Al final la arqueología constatará lo aún existente (Contreras, R.).</p>	
+
+			<!-- ####### imagenes del entorno de la plaza de armas ######### -->
+			<figure xml:id="entorno_plaza_de_arma">
+				<caption> - (a) Un sector del plano levantado por la Comisión Secreta de 1754; la <em>parcela Sucre</em> -en amarillo-, <em>la Plaza de Armas</em> -en azul-. En (b),(c) y (d), se muestra la ubicación de las áreas antes señaladas, en la actualidad. El <em>Fuerte de Santa María de la Cabeza</em> y la <em>Iglesia Parroquial</em> (hoy Santa Inés), pudieran considerarse como el núcleo de la Ciudad de Cumaná del siglo XVIII; condición que imperó hasta la <em>Declaración de Independencia</em> y los sucesivos años de guerra. Solo falta reconstruir la <em>Casa Natal del Gran Mariscal de Ayacucho</em> para reponer el patrimonio nuclear faltante (Contreras, R.).</caption >
+
+				<sidebyside widths ="44% 44%" margins="auto" valign="middle">
+					<figure >
+						<caption>Año 1754.</caption>				
+						<image source ="./imagenes/entorno_plaza_armas_a.jpg" width ="70%" />
+					</figure >
+					
+					<figure>
+						<caption>Año 2015.</caption>				
+						<image source="./imagenes/entorno_plaza_armas_b.jpg" width ="70%" />
+					</figure>
+				</sidebyside>
+				<sidebyside width ="75% " valign ="bottom">
+					<figure>
+						<caption>Año 2015.</caption>					
+						<image source="./imagenes/entorno_cnajs_b.jpg" />
+					</figure>
+				</sidebyside>
+				<sidebyside width ="75% " valign ="bottom">
+					<figure>
+						<caption>Año 2015.</caption>					
+						<image source="./imagenes/entorno_cnajs_a.jpg" />
+					</figure>
+				</sidebyside>			
+			</figure>		
+        </conclusion >
+		</section>			
+
+</chapter>
+
+						
