@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ********************************************************************
+         Copyright 2022 Rommel Contreras 
+
+	********************************************************************
+
+	LA CASA NATAL DE ANTONIO JOSÉ DE SUCRE                           
+	(De la incertidumbre a la geometría del espacio real)
+
+	Copyright (C) 2022  rommel Contreras 
+
+	********************************************************************
+
+	Este es el archivo del "libro-estructura.xml" del libro
+
+	******************************************************************** -->
+	<pretext xmlns:xi="http://www.w3.org/2001/XInclude"  xml:lang="es-ES">
+	<!-- <pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US"> -->
+	<!-- <pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="fr-FR"> -->
+
+    <xi:include href="./libro-ce-info.xml" /> <!-- ISBN, website, other metadata -->
+    
+    <book xml:id="libro_Casa_natal_AJS">
+        <title>La Casa Natal de Antonio José de Sucre</title>
+        <subtitle>De la incertidumbre a la geometría del espacio real.</subtitle>
+
+        <xi:include href="./frontmatter.xml" />     <!-- Title Page, Preface, etc. -->
+
+		<!-- ********************************************************************* -->
+		<!-- Acá se incluyen cada uno de los capítulos que componen el libro -->
+		<!-- *********************************************************************- -->
+
+        <part xml:id="parte-primera">
+            <title>Argumentos</title>
+			<xi:include href="./Capitulo_1.xml" />
+            <xi:include href="./Capitulo_2.xml" />
+			<xi:include href="./Capitulo_3.xml" />
+        </part>
+
+        <xi:include href="./backmatter.xml" />       <!-- GFDL, Hints, Notation -->
+
+    </book>
+
+</pretext>

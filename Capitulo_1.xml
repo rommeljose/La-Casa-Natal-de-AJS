@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ********************************************************************
+         Copyright 2022 Rommel Contreras 
+
+	********************************************************************
+
+	LA CASA NATAL DE ANTONIO JOSÉ DE SUCRE                           
+	(De la incertidumbre a la geometría del espacio real)
+
+	Copyright (C) 2022  rommel Contreras / Alexander Castro
+
+	********************************************************************
+
+	Estte es el archivo del "capitulo_1.xml" del libro
+
+	******************************************************************** -->
+
+<chapter xml:id="cap_01" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+	<!-- % RJCG, 8/4/2022 -->
+
+	<title>Las Casas de don Vicente de Sucre</title>
+	
+		<blockquote >
+			<attribution>Alexander Castro Moreno</attribution >
+		</blockquote >	
+
+	<introduction xml:id="introducion_3">
+
+		<p>En las siguientes líneas, hablaremos con respecto al tan comentado tema, de cuántas casas poseyó en el perímetro de la ciudad de Santa Inés de Cumaná, el Sr. Marqués de Preaux, el Coronel don Vicente Vitto Luis Ramón Sucre y García de Urbaneja, en el año de 1795. Por medio de este detallado estudio de cada una de las edificaciones sucrentinas, podremos tener la posibilidad de entender claramente, en qué lugar nació don Antonio José Francisco de Sucre y Alcalá Sánchez, el Gran Mariscal de Ayacucho, amado y preferido hijo de Cumaná.</p>
+	</introduction>	
+
+        <!-- #### Imagenes del Centro de la Ciudad de Cumaná ##### -->
+		<figure>
+		<caption> - Plano actual del Centro de la ciudad, con la ubicación de las residencias que pertenecieron a don Vicente de Sucre: 1.-Occidente de la Calle Belén. 2.-Oriente de la Calle Belén. 3.-Calle San Carlos con Calle El Comercio. 4.-Calle El Carmen. 5.-Calle La Marina con Calle del Baño de la Gobernadora. 6.-Plaza del Mercado con Calle del Paraíso. 7.-Calle El Carmen. 8.-Plaza de Armas.</caption>
+			<image source="./imagenes/Alex/mapa_centro_de_cumana.png"/>
+		</figure>
+		
+		<figure>
+		<caption> - Fotografía aérea del Centro de la ciudad en 1937, con la ubicación de las residencias que pertenecieron a don Vicente de Sucre: 1.-Casa Sucre, Plaza de Armas. 2.-Casa de la Calle del Carmen. 3.-Casa de Calle San Carlos con Calle El Comercio. 4.-Casa de Calle La Marina con la Calle del Baño de la Gobernadora. 5.- Casa de la Plaza del Mercado con Calle del Paraíso. 6.-Casa al occidente de la Calle Belén 7.-Casa al oriente de la Calle de Belén. (Foto mosaico, aéreo fotos de la Cartografía Nacional; Castro, A.; Contreras, R.).</caption>
+			<image source="./imagenes/Alex/Casas_Vicente_Sucre_rojo.jpg" width="85%" />
+		</figure>		
+					
+		<section xml:id="casa_de_belen_occidente">
+			<title>La Casa al occidente de la Calle de Nuestra Señora de Belén</title>
+
+			<p>1.- La Casa al occidente de la Calle de Nuestra Señora de Belén, que en la actualidad se denomina Calle Ribas, fue la residencia del Gobernador don Miguel Marmión y su familia, desde el año 1775 hasta el de 1785, cuando él parte de la ciudad para desempeñar otro cargo, al servicio de la Corona. Desde entonces, aparece ésta residencia, como una de las propiedades que la Gobernación de Cumaná poseía en la ciudad. </p>
+
+			<p>Aunque no tenemos datos que lo confirmen de manera concreta, este hermoso palacio, podría haber sido una residencia de las que por su tipología eran denominadas: La Casa del Rey, que eran amplias moradas con todos los servicios y bien amuebladas según el gusto de la época, donde podía permanecer por ciertos momentos o períodos, el Gobernador y otras altas personalidades. </p>
+			
+			<p>Estas edificaciones gubernamentales, también servían como hospedaje, para albergar a visitantes notables, de paso por la ciudad, por períodos variables. Como veremos a continuación, el uso que se le dio al inmueble, confirma la anterior teoría, aparte, de que en la ciudad, como en todas las demás ciudades, y hasta en los pueblos, existía una Casa del Rey.</p>
+			
+			<p>Hacia 1794, vivió allí, de manera transitoria, el Gobernador don Vicente de Emparan y Orbe, durante todo el tiempo transcurrido, mientras se realizaban los trabajos de restauración de la Casa de los Gobernadores en la Plaza del Mercado, en la Calle del Paraíso, donde hoy funciona el Hotel Miranda.</p>
+			
+			<p>Cuando el notable sabio Alexander Von Humboldt, llega a la ciudad, para realizar sus estudios científicos, se residencia en ese céntrico palacio, durante todo el tiempo que permaneció en Santa Inés de Cumaná, debido a que aún estaba en posesión de la Gobernación de Cumaná.</p>
+			
+			<p>El gobierno regional la destinó para albergar a tan distinguido visitante, aunque éste pasaba largos momentos en la Casa de los Gobernadores. Don Vicente de Sucre compró esa residencia, probablemente, después del año 1804, cuando asume el gobierno el nuevo Capitán General de la Nueva Andalucía, don Juan Manuel de Cajigal y Niño.</p>
+			
+			<p>Debido a este dato cronológico, no es probable que Antonio José haya nacido allí, porque la compra se realizó muchos años después de ese acontecimiento. </p>
+			
+			<p>Esa casa, que en realidad es un palacio nobiliario, como hemos hecho entender, no se encuentra en el lugar donde se colocó la placa conmemorativa del nacimiento de Sucre, en la esquina occidental del Liceo Antonio José de Sucre, en la actual Calle Montes.</p>
+			
+			<p>Debido a diversos autores, la tradición y la documentación existente, conocemos muy bien, que la residencia donde vivió el Gobernador Marmión, y después a don Vicente, le perteneció a la Familia Malaret desde finales del siglo XIX, cuando esa familia francesa la adquirió como residencia familiar.</p>
+			
+			<p>En la actualidad, en ese antiguo palacio, que posee bellos trabajos de ebanistería de los reconocidos talleres Alarcón y vestigios de pintura mural en su sala de baile, funciona actualmente la Casa Parroquial de la Catedral de Cumaná.</p>
+			
+			<p>Poseemos una alzada de su fachada, perteneciente a la Colección Zenaida Varela Mago, en la cual vemos la misma disposición que tiene en el presente, pero sin el aparato decorativo, consistente en elementos de transición entre el rococó y el neoclásico, propios de finales del siglo XVIII y principios del siglo XIX.</p>
+			
+			<p>Sobre las ventanas había festones sostenidos en el centro por un pequeño pabellón semi esférico, haciendo una honda que penetra una argolla que hace descender los extremos del simulado paño.</p>
+			
+			<p>Sobre la puerta de ingreso, hay un escudo de armas (del cual no conocemos la gens), del cual sale a ambos lados: el festón, de la misma manera que sobre las ventanas. Las repisas de las ventanas eran de triple moldura descendente, actualmente inexistentes.</p>
+			
+			<p>Hoy, todavía se conservan las rejas de estilo sevillano. Una cornisa corre sobre toda la fachada, con gárgolas de boca de cañón, que delatan el origen gubernamental real del edificio. El parapeto descansa sobre la cornisa y estaba constituido por cinco paños con espejos, divididos por pilastrillas dobles sobremontadas, las cuales se encontraban coronadas por pináculos bulbiformes estriados, de tradición andaluza.</p>
+			
+        <!-- #### Casa de la calle Belen - occidente  ##### -->
+		<figure>
+		<caption> - Palacio Marmión, al occidente de la Calle de Belén. Colección Zenaida Varela Mago.</caption>
+			<image source="./imagenes/Alex/palacion_marmion.jpg"/>
+		</figure>
+			
+		</section>
+			
+		<section xml:id="casa_de_belen_oriente">
+
+			<title>La casa que se encontraba en la parte oriental de la Calle de Belén</title>				
+			<p>La casa que se encontraba en la parte oriental de la Calle de Belén, en el año 1804 se encontraba en obras de construcción, y don Vicente la compró en esas condiciones y luego terminó dichas obras. </p>
+			
+			<p>Esa residencia se deterioró gravemente durante el terremoto de 1853, y posteriormente fue demolida. En ese lugar, don Juan de la Cruz Meaño, construyó un elegante palacio de estilo neoclásico, que luego le perteneció a don Santos Berrizbeitia.</p>
+			
+			<p>Ese palacio se encontraba en la cuadra donde actualmente se levanta la estructura republicana del Liceo Antonio José de Sucre, no en el área donde se encuentra la placa conmemorativa del nacimiento de Sucre, sino en la esquina del extremo oriental de esa cuadra, confinante con la calle Boyacá, al frente a la Cuadra Romero, donde hacía límites el Barrio El Toporo con el Barrio de Chiclana. De esa casa, poseemos una copia de una fotografía que perteneció a don Luis José Espín, que él conservaba celosamente, porque dicha residencia se construyó sobre la que había pertenecido a don Vicente.</p>
+			
+			<p>En ella vemos, que el palacio estaba dividido en cuatro módulos bien delimitados por pilastras toscanas, y cada uno de ellos con dos vanos. Una cornisa corre a lo largo de toda la fachada, rompiéndose en las cimeras de los capiteles de las pilastras.</p>
+			
+			<p>El parapeto es alto en los cuerpos de los extremos y más bajo en los cuerpos del centro. El zócalo estaba delimitado por un astrágalo continuo y decorado por espejos rectangulares cortos, que, siendo más amplios, sobre montaban los vanos, debajo de la cornisa.</p>
+			
+			<p>El ingreso a la vivienda se encontraba en el módulo de la esquina, los otros tres eran para locales comerciales. Todos estos datos nos dan a entender, que en la actual Calle Montes, había dos casas de don Vicente, en diferentes puntos de la calle, siempre en la acera norte, y compradas varios años después del nacimiento de Antonio José.</p>
+
+			
+        <!-- #### Casa de la calle Belen - oriente  ##### -->
+		<figure>
+		<caption> - Casa de don Juan de la Cruz Meaño, donde estuvo la Casa del oriente de la Calle de Belén.</caption>
+			<image source="./imagenes/Alex/casa_oriente_calle_belen.jpg" width="60%" />
+		</figure>
+
+		</section>
+			
+		<section xml:id="casa_san_carlos_comercio">
+
+			<title>La casa que se encontraba entre las calles: San Carlos (hoy Sucre) y El Comercio</title>
+			
+			<p>Don Vicente poseyó una casa, entre las calles San Carlos (hoy Sucre) y El Comercio, al frente de la fachada principal de la Capilla de la Cofradía de Santa Inés. Según las noticias que nos han llegado, en esa residencia nunca vivió la familia Sucre-Alcalá. </p>
+			
+			<p>Quien la habitó durante muchos años, fue don José Manuel Sucre y Alcalá y su esposa doña María Teresa de González y Flores, con sus cuatro hijos. Al fallecer don José Manuel, quedó viviendo allí su hija Eulogia de Sucre y González de Flores, que era soltera. </p>
+			
+			<p>Cuando vemos el grabado de 1843, que retrata parcialmente la ciudad, y que pertenece a la colección Graziano Gasparini, notamos que la casa de esquina, de dos niveles con ventanas en las fachadas, era de dimensiones bastante modestas y se encontraba en ese momento abandonada y amenazando ruina, porque ya había perdido parte de la techumbre que cubría la fachada principal, aunque se nota que una parte, todavía lo poseía, detrás de los restos del parapeto. </p>
+			
+			<p>No vemos detalles específicos que nos ayuden a hacer una descripción pormenorizada. La casa vecina, también a dos niveles, se conservaba íntegra en líneas generales. </p>
+			
+			<p>En ese espacio, se encuentra actualmente el Edificio Sucre, uno de los mejores ejemplos del estilo art decó de la ciudad, con su hermoso bajorrelieve, que representa el encuentro de culturas, y que debería ser revalorizado, por ser el relieve de más grandes dimensiones en toda la ciudad.</p>
+			
+        <!-- #### Casa de la calle San Carlos con la del Comercio  ##### -->
+		<figure>
+		<caption> - Casa en la Calle San Carlos con la de El Comercio, frente a la Capilla. Colección Gasparini.</caption>
+			<image source="./imagenes/Alex/casa_calle_san_carlos.jpg" width="70%" />
+		</figure>			
+			
+		</section>
+		
+		<section xml:id="casa_calle_el_carmen">
+
+			<title>La casa en la Calle El Carmen</title>
+			
+			<p>La casa en la Calle El Carmen, estaba haciendo esquina con la Calle del Comercio, detrás de la desaparecida Capilla de la Cofradía de Santa Inés, era una vivienda de reducidas dimensiones, lo cual no la hacía adecuada para albergar a los nueve hijos de la familia, y no se adaptaba al nivel social de los ocupantes. </p>
+			
+			<p>En el grabado Gasparini, se muestra como un espacio probablemente vacío, detrás de la pared testera de la Capilla, rodeado por ruinosas paredes de horcones y bajareque, al lado de la Casa Nª 11. </p>
+			
+			<p>No conocemos en qué época pasó a pertenecer a don Vicente. Actualmente, sigue siendo una pared de cercado, con una vivienda rudimentaria en su interior, de reciente data.</p>
+			
+        <!-- #### Casa de la calle El Carmen  ##### -->
+		<figure>
+		<caption> - Ruinas de la Casa de la Calle El Carmen, detrás de la Capilla. Colección Gasparini.</caption>
+			<image source="./imagenes/Alex/casa_calle_el_carmen.jpg" width="100%" />
+		</figure>				
+			
+		</section>
+		
+		<section xml:id="palacio_calle_bermudez">
+
+			<title>La casa entre: calles de La Marina (Bermúdez) y la calle del Baño de la Gobernadora (Mariño)</title>
+			
+			<p>El suntuoso palacio a dos niveles, que don Vicente de Sucre poseía entre la Calle La Marina (Bermúdez) y la Calle del Baño de la Gobernadora (Mariño), a orillas del Río Manzanares, fue adquirido por él, para hacerlo su residencia familiar, después de sus segundas nupcias con doña Narcisa Márquez de Alcalá, en el año 1803. </p>
+			
+			<p>Debido a lo cual, indudablemente no es la que residencia que buscamos, como la del nacimiento de Antonio José. </p>
+			
+			<p>En la fotografía de Avril, del año 1905, en la Calle La Marina, donde se observa el Arco triunfal de la colonia árabe, a la izquierda, se observa una parte de la Casa Sucre, a principios del siglo XX. </p>
+			
+			<p>Según las noticias que poseemos, el palacio desapareció en el transcurso del siglo XIX. Si la edificación que vemos en la fotografía, pertenecía a mediados del siglo XIX, llama mucho la atención, que posea todos los elementos propios y básicos de una edificación doméstica de principios del siglo XIX, y no de finales, lo cual nos invita, a hacer un estudio más exhaustivo de este caso.</p>
+			
+        <!-- #### Sucre / Casa Berrizbeitia  ##### -->
+		<figure>
+		<caption> - Fotografía de Avril en 1905, donde aparece la Casa Berrizbeitia, que ocupaba el lugar de la de Sucre,  en  Calle La Marina con Calle El Baño de la Gobernadora.</caption>
+			<image source="./imagenes/Alex/casas_bermudez_marino.jpg" width="80%"/>
+		</figure>				
+			
+		</section>
+
+		<section xml:id="casas_calle_paraiso">
+
+			<title>La casa de la calle de El Paraíso</title>
+			
+			<p>En la Calle del Paraíso, en plena Plaza del Mercado, estaba el antiguo Palacio Sucre, que perteneció al Coronel don Antonio Mauricio de Sucre Pardo y Trelles, Marqués de Preaux, padre de don Vicente, quien lo adquirió como vivienda cuando contrajo nupcias, el 03 Abril de 1741, con doña Josefa Margarita Francisca García de Urbaneja y Sánchez de Torres. Don Antonio murió en 1780 y pasó a vivir allí su hijo, el Capitán don Francisco José de Sucre y García de Urbaneja con su esposa doña Josefa Francisca Ramírez de Bastos de la Guerra y Vega, y sus seis hijos. </p>
+			
+			<p>En el año 1802, éste murió y lo dejó a su hijo, Luis Sucre y Ramírez de Bastos, quien a su vez lo dejó a su hija doña María Luisa Sucre Márquez.</p>
+			
+			<p>En 1797, don Vicente y su hermano don José Manuel Sucre y García de Urbaneja, que era el Síndico Procurador del Ayuntamiento de Cumaná, compraron la casa vecina en dirección hacia la Calle del Comercio, para instalar allí, un negocio comercial, debido a que era el mejor punto para las transacciones comerciales, por estar en pleno Mercado. </p>
+			
+			<p>En el Museo Antonio José de Sucre Gran Mariscal de Ayacucho, se conserva una fotografía de la Colección Luis José Espín, donde se ve la fachada de esa casa comercial, ostentando sobre el portal de ingreso el escudo de armas de la familia. Se ha dicho, que la casa paterna de la Plaza del Mercado, fue el lugar de residencia de don Vicente cuando nació Antonio José en 1795. </p>
+			
+			<p>Pero parece improbable que don Vicente, el más rico de los hermanos Sucre y García de Urbaneja, con esposa y nueve hijos, viviera allí, con don Francisco, esposa y seis hijos, a pesar de que era una residencia de grandes proporciones.</p>
+			
+			<p>En la fotografía que tomó Avril en 1907, en la Plaza del Mercado, mostrando el arco Triunfal de la Federación, a la izquierda se puede ver la amplia fachada del antiguo palacio Sucre. Es una edificación que se distingue por su gran volumen, con un gran portal barroco, con arco de medio punto y grandes puertas a los lados (dos y cuatro). Una larga cornisa sostenía un igualmente largo parapeto con múltiples paños con espejos, entre pilastrillas. </p>
+			
+			<p>A principios del siglo XX, funcionó allí, al parecer, la Comandancia de Policía, y la sede de la Asamblea Legislativa. Hacia 1945, todo este hermoso palacio fue demolido, para construir en su solar el Cine Paramount, que a finales del siglo XX, fue transformado en el Teatro Luis Mariano Rivera.</p>
+			
+        <!-- #### Palacio Sucre / calle Paraiso ##### -->
+		<figure>
+		<caption> - Fotografía de Avril en 1907, de la Plaza del Mercado, donde se ve el antiguo palacio Sucre.</caption>
+			<image source="./imagenes/Alex/palacio_sucre.jpg"/>
+		</figure>				
+			
+		</section>
+
+		<section xml:id="casa_calle_el_bolivar">
+
+			<title>La casa de calle El Carmen</title>
+			
+			<p>En la Calle del Carmen (hoy Bolívar, en el Nº 24), hay una Casa Sucre. Esta hermosa casona, perteneció a doña María Aguasanta de Sucre y Alcalá, hermana del Gran Mariscal, a partir de su matrimonio con don José Antonio de Cortegoso, en 1809.</p>
+			
+			<p>En esa Calle, hay diversas viviendas que según la tradición (y esperando un estudio serio), fueron compradas o construidas por diferentes miembros de la familia Sucre, especialmente los hermanos de Antonio José, ya que era la calle principal y más antigua de la ciudad. El lugar predilecto para ello, lo era, la cuadra que originalmente fue la antigua Plaza Mayor, al frente del antiguo Cabildo (hoy: Fundadanza, del lado de la Calle Bolívar).</p>
+			
+			<p>En la Colección Zenaida Varela Mago, tenemos una alzada de la fachada de la casona de doña Aguasanta. El portal de líneas sencillas, estaba coronado por un elegante arco rebajado, decorado de rocallas en su parte superior y sobre el vano de la puerta, partiendo de una cartela en hojarascas.</p>
+			
+			<p>Las esquinas superiores del lienzo de la fachada, también estaba decorada con rocallas en ángulo. Las dos ventanas, estaban cubiertas por rejas de hierro de tipo sevillano, abombadas en la parte inferior, muy propias del estilo. </p>
+			
+			<p>Las repisas eran mixtilíneas y de pirámides truncadas inversas, y faja baja de ondas.  En los lienzos entre las ventanas, había cornisamentos de rocallas a la manera de espejos, todos en iguales proporciones.</p>
+			
+			<p>La cornisa elegante y sencilla, sostenía un parapeto con paños decorados con rocallas a manera de “M” plana, entre pilastrillas dobles sobremontadas, teniendo en el centro del mismo, un juego de inusuales pilastrillas pareadas.</p>
+			
+			<p>En la actualidad, esta casona muestra gran parte de su apariencia general, aunque su parte decorativa fue arrasada entre 1929-30, el parapeto ha sido eliminado, y la reja de la ventana de la derecha, ha sido arrancada, para hacer allí una especie de garaje-local, que ha roto con el equilibrio de dicha fachada.</p>
+			
+        <!-- #### Sucre / Casa Berrizbeitia  ##### -->
+		<figure>
+		<caption> - Casa de doña María Aguasanta de Sucre y Alcalá, en Calle El Carmen. Colección Zenaida Varela Mago.</caption>
+			<image source="./imagenes/Alex/casa_calle_el_bolivar.jpg"/>
+		</figure>				
+			
+		</section>		
+</chapter>

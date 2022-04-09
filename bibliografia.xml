@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- ********************************************************************
+         Copyright 2019 Rommel Contreras 
+
+	********************************************************************
+
+	Curvas Elípticas:                           
+	Base criptográfica del Petro                
+
+	Copyright (C) 2019 - 2022   rommel Contreras    
+
+	********************************************************************
+
+	Estte es el archivo del "capitulo_1.xml" del libro
+
+	******************************************************************** -->
+
+<chapter xml:id="bibliografia" xmlns:xi="http://www.w3.org/2001/XInclude">
+			<title>Referencias: Documentales y Cartográficas</title>
+<references>
+			<title>Libros y Documentos</title>
+
+			<biblio type="raw" xml:id="alvarado_0">
+				Alvarado, E.
+				<title>Relaciones Históricas de la Expedición de Límites</title>. 
+				 <pubtitle>Museo Naval -564</pubtitle>. 
+				 <year>s/f</year>.
+			</biblio>				
+			
+			<biblio type="raw" xml:id="amezaga_0">
+				Amezaga A., V.
+				<title>Hombres De La Compañía Guipuzcoana.</title>. 
+				 <pubtitle>Editorial Ediciones Impresas Xabier Iñaki Amezaga Iribarren</pubtitle>.
+				 <year>2013</year>.
+			</biblio>
+
+			<biblio type="raw" xml:id="badaracco_0">
+				Badaracco, R. 
+				<title>MONUMENTO A SUCRE, LAS CADENAS</title>. 
+				 <pubtitle>Blog del autor; Cronista Oficial de la Ciudad de Cumaná</pubtitle>
+				 <year>2015</year>.
+				<url href="https://cronistadecumana.blogspot.com/2016/10/diciembre-memoria-historica-de-cumana.html"></url>.
+				<date>Consultado: 8-10-2015</date>
+			</biblio>
+
+			<biblio type="raw" xml:id="contreras_0">
+				Contreras, R.
+				<title>El río y el puerto de Cumaná, arterias vitales para la ciudad ("Cumaná : Cumaná 500 años : una historia ilustrada")</title>.
+				<pubtitle> [S.l.] : [s.n.], [2015]. - p. 79-89</pubtitle>
+				<url href="http://www.mcu.es/ccbae/es/consulta/registro.do?id=225614"></url>.
+				<year>2015</year>.
+			</biblio>
+
+			<biblio type="raw" xml:id="contreras_1">
+				Contreras, R.
+				<title>La Ciudad en la Cartografía ("Cumaná : Cumaná 500 años : una historia ilustrada")</title>.
+				<pubtitle>[S.l.] : [s.n.], [2015]. - p. 152-175</pubtitle>
+				<url href="http://www.mcu.es/ccbae/es/consulta/registro.do?id=225614"></url>.
+				<year>2015</year>.
+			</biblio>				
+
+			<biblio type="raw" xml:id="dic_polar_0">
+				Diccionario-Polar.
+				<title>Diccionario de Historia de Venezuela</title>. 
+				 <pubtitle>Fundación Polar</pubtitle>. 
+				 <year>1997</year>.
+			</biblio>
+
+			<biblio type="raw" xml:id="dorta_0">
+				Dorta, E. M.
+				<title>Materiales para la Historia de la Cultura en Venezuela (1523 -1828) - Documentos del Archivo General de Indias de Sevilla</title>.
+				<pubtitle>Fundación John Boulton</pubtitle>. 
+				<date>1967</date>
+			</biblio>
+
+			<biblio type="raw" xml:id="crame_0">
+				Crame, Agustín.
+				<title>Plan de defensa para la provincia de Cumaná (En: Uriarte G., J. ;Paladini C., A. (1990).  Cartografía y Relaciones Históricas de Ultramar - Venezuela)</title>. 
+				<pubtitle>Servicio Geográfico del Ejercito / Servicio Histórico Militar (Vol. VII, Madrid)</pubtitle>.			 
+				 <year>1777</year>.
+			</biblio>
+			
+			<biblio type="raw" xml:id="drenikoff_0">
+				Drenikoff, I.
+				<title>Breve Historia de la Cartografía de Venezuela - Grabados e impresos antes de 1800 con la reproducción del primer mapa impreso en Venezuela y de mapas antiguos -</title>. 
+				 <pubtitle>Academia Nacional de la Historia</pubtitle>. 
+				 <year>1982</year>.
+			</biblio>
+
+		   <biblio type="raw" xml:id="espinosa_0">
+				Espinosa y Tello, J. 
+				<title>Memorias sobre las observaciones astronómicas hechas por los Navegantes Españoles en distintos lugares del Globo</title>. 
+				<pubtitle>Imprenta Real</pubtitle>.
+				<year>1809</year>.
+			</biblio>				
+			
+			<biblio type="raw" xml:id="loc_1">
+				Martínez, Juan Joseph
+				<title>Plano o descripción de la Punta de Araya y su fondeadero, parte de la costa del E. parte del Golfo de Cariaco, Bahía de Cumana cituado su castillo segn. observación astronómicas en lattd. N. de <m>10^{\circ }28^{\prime}</m>, costa de Bordones, Puerto Escondido, costa y puerto de Mochima con sus puntas, bajos, encenadas y sondas, dado a luz pr. los pilotos de la Fragta. de S.M. nombrada la Pura y Linpia concepción y Sn. Marcos, qe. bino a operación del Rl. Servisio a esta, bajo las orns del Gefe del Sga. Dn. Josef Yturriaga, comandte. de la expedición secreta, año de 1754</title>.
+				<pubtitle>[Map] Obtenido de: Library of Congress - USA</pubtitle>
+				<url href="https://www.loc.gov/item/90682948/"></url>.
+				<year>1754</year>.
+			</biblio>			
+			
+		   <biblio type="raw" xml:id="francia_0">
+				Francia, F. 
+				<title>Origenes del Gran Mariscal de Avacucho: discursos leidos en el acto de la recepcion del Senor D. Felipe Francia, como individuo de numero de la Academia nacional de la historia, el dia 27 de agosto de 1920</title>. 
+				<pubtitle>Tip. Vargas, Aguerrevere y Guruceaga</pubtitle>.
+				<year>1920</year>.
+			</biblio>	
+
+			<biblio type="raw" xml:id="gomara_0">
+				Gómara, F. L. 
+				<title>Historia General de las Indias (Hispania Vitrix )</title>.
+				<pubtitle> Imprenta de Antonio Marzo, San Mermeaegildo. (1922)</pubtitle>. 
+				<date>1551</date>
+			</biblio>
+
+			<biblio type="raw" xml:id="gomez-rafael_0">
+				Gómez, Rafael José 
+				<title>Tema-Discurso de Incorporación a la Academia Nacional de la Historia</title>.
+				<pubtitle>Cortesía de Cesar Gómez</pubtitle>.
+				<date>1995</date>
+			</biblio>
+
+			<biblio type="raw" xml:id="gonzalez_0">
+				González, Julio 
+				<title>Catálogo de Mapas y Planos de Venezuela</title>. 
+				 <pubtitle>Dirección General de Archivos y Bibliotecas (Madrid)</pubtitle>. 
+				 <year>1968</year>.
+			</biblio>			
+			
+			<biblio type="raw" xml:id="humboldt_0">
+				Humboldt, A., Bompland, A. 
+				<title>Viajes a las Regiones Equinocciales del Nuevo Continente</title>. 
+				 <pubtitle>Ministerrio de Educación Nacional (1941)</pubtitle>. 
+				 <year>1799</year>.
+			</biblio>
+
+			<biblio type="raw" xml:id="lucena_0">
+				Lucena, M. 
+				<title>Laboratorio Tropical</title>. 
+				 <pubtitle>Monta Avila Latinoamericana, C. A</pubtitle>. 
+				 <year>1991</year>.
+			</biblio>				
+			
+			<biblio type="raw" xml:id="lucena_1">
+				Lucena, M.
+				<title>La frontera caríbica: Expedición de Límites al Orinoco, 1754 / 1761.</title>. 
+				 <pubtitle> Cuadernos Lagoven; Lagoven S.A</pubtitle>.
+				 <year>1992</year>.
+			</biblio>
+
+			<biblio type="raw" xml:id="PEM_0">
+				Marcano, P. E. 
+				<title>La cuna y la tumba del Gran Mariscal de Ayacucho. Cumaná y Quito</title>. 
+				<pubtitle>Marco-Tulio Badaracco, Ed</pubtitle>. 
+				<journal>Bisemanario, El Sucre. (Cumaná)</journal>, 
+				<number>27</number>, Año I<ndash />Mes IV, (1982).
+				 <month> 10</month>, <year>1924</year>.
+			</biblio>
+
+			<biblio type="raw" xml:id="PEM_1">
+				Marcano, P. E. 
+				<title>CONSECTARIO de la Ciudad de Cumaná</title>.
+				<pubtitle>Ejecutivo del Estado Sucre (2da. ed.)</pubtitle>.
+				<year>1956</year>.
+			</biblio>				
+
+			<biblio type="raw" xml:id="PEM_2">
+				Marcano, P. E
+				<title>Cronología del Estado Sucre</title>. 
+				 <pubtitle>ANH, Ed</pubtitle>. 
+				 <journal>Boletín de la Academia Nacional de la Historia</journal>, 
+				 <volume>186</volume> 
+				<number>27</number>, abril<ndash />junio.
+				 <year>1964</year>.
+			</biblio>
+
+			<biblio type="raw" xml:id="mejia_0">
+				Mejía, I. R. .
+				<title>Periódicos y Revistas de Cumaná</title>.
+				<pubtitle>Editorial "Renacimiento"</pubtitle>. 
+				<date>1958</date>
+			</biblio>
+			
+			<biblio type="raw" xml:id="pereda_0">
+				Pereda, M. A. 
+				<title>El Orinoco domeñado. Frontera y límite</title>. 
+				 <pubtitle>Universidad Central de Venezuela</pubtitle>. 
+				 <year>2006</year>.
+			</biblio>
+
+		   <biblio type="raw" xml:id="rohl_0">
+				Röhl, E.
+				<title>Historia de las Ciencias Geográficas</title>. 
+				<pubtitle>Talleres Gráficos de Coromotip</pubtitle>.
+				<year>1990</year>.
+			</biblio>				
+			
+		   <biblio type="raw" xml:id="sevilla_0">
+				Sevilla, R. 
+				<title>La Guerra de América - Memorias de un Oficial del Ejército Español. Campaña contra Bolívar y los separatistas de América</title>. 
+				<pubtitle>Editorial - América (Madrid)</pubtitle>.
+				<year>1925</year>.
+			</biblio>	
+
+			<biblio type="raw" xml:id="suarez_0">
+				Suárez, S. G. 
+				<title>Fortificaciones y Defensa</title>.
+				<pubtitle>Academia Nacional de la Historia.</pubtitle>. 
+				<date>1978</date>
+			</biblio>
+
+			<biblio type="raw" xml:id="uriarte_0">
+				Uriarte G., J. ;Paladini C., A. 
+				<title>Cartograffía y Relaciones Históricas de Ultramar (Venezuela) </title>.
+				<pubtitle>Madrid: Servicio Geográfico del Ejercito / Servico Histórico Militar</pubtitle>.
+				<date>1990</date>
+			</biblio>
+
+		</references> <!-- References need to be updated -->
+		
+</chapter>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- ********************************************************************
+         Copyright 2019 Rommel Contreras 
+
+	********************************************************************
+
+	Curvas Elípticas:                           
+	Base criptográfica del Petro                
+
+	Copyright (C) 2019 -2022   rommel Contreras    
+
+	********************************************************************
+
+	Estte es el archivo del "libroinfo.xml" del libro
+
+	******************************************************************** -->
+
+<docinfo>
+
+    <!-- las opciones son "short" y "long" las cuales pueden producir una -->
+    <!-- sección entera del front matter con más títulos   -->
+    <author-biographies length="short" />
+
+    <brandlogo url="https://efemeridescumana.blogspot.com/2021/06/la-casa-natal-de-antonio-jose-de-sucre.html" source="./imagenes/logo_Academia.png" />
+
+    <covers front="./imagenes/portadas/portada_1.jpg"
+            back="./imagenes/portadas/Juvenal_Rabelo_Fragmentacion-de-la-luz-y-el-color-acrilico-sobre-mdfmetal-y-elementos-reflectantes-100-x-100-cm-2014.jpg"/>
+
+    <!-- Prefix to enhance Sage notebook contents -->
+    <initialism>RJCG</initialism>
+
+    <!-- Math-related macros from "macros.tex" in previous LaTeX version -->
+    <!-- \notdivide replaces \notmid to avoid conflict with tikz - TWJ 5/6/2010 -->
+    <!-- Added operator \gf  - TWJ 2/26/2013 -->
+    <!-- Added operator \inn - TWJ 4/6/2013  -->
+    <!-- Added operator \aut - TWJ 4/6/2013  -->
+    <!-- Added operator \Hom - TWJ 8/19/2010 -->
+	
+	
+
+	
+    <macros>
+	
+    \newcommand{\identity}{\mathrm{id}}
+    \newcommand{\notdivide}{{\not{\mid}}}
+    \newcommand{\notsubset}{\not\subset}
+    \newcommand{\lcm}{\operatorname{lcm}}
+    \newcommand{\gf}{\operatorname{GF}}
+    \newcommand{\inn}{\operatorname{Inn}}
+    \newcommand{\aut}{\operatorname{Aut}}
+    \newcommand{\Hom}{\operatorname{Hom}}
+    \newcommand{\cis}{\operatorname{cis}}
+    \newcommand{\chr}{\operatorname{char}}
+    \newcommand{\Null}{\operatorname{Null}}	
+    </macros>
+	
+	<initialism>rjcg</initialism>
+
+	<document-id>Casa-Natal-AJS</document-id>
+
+ <!--       
+        <feedback>
+            <url>not-implemented.html</url>
+            <text>Comentarios y otros</text> 
+        </feedback>
+-->
+
+    <!-- this is the default, but supresses a warning -->
+    <cross-references text="type-global" />
+
+    <!-- tikz package and libraries for images -->
+    <latex-image-preamble>
+    \usepackage{tikz}
+    \usetikzlibrary{backgrounds}
+    \usetikzlibrary{arrows,matrix}
+    \usetikzlibrary{snakes}
+	</latex-image-preamble>	 -->	
+
+        <latex-output>
+            <!-- turn this on once it is easier to make   -->
+            <!-- standalone worksheets, uncomment to test -->
+            <!-- <worksheet top="3cm" left="4cm" margin="12cm"/> -->
+        </latex-output>
+
+
+
+
+</docinfo>
