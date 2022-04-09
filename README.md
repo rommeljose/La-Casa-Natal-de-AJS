@@ -25,7 +25,7 @@ Como "sistema operativo" se utilizó [CygWin](https://cygwin.com), una colecció
 
 ###### *Nota: Todas las marcas registradas son las marcas registradas de sus respectivos propietarios.*
 
-
+<!--
 ## Proceso de los archivos de código XML (PreText)
 
 `Para ejecutar los comandos de edición PreText (en un entorno CygWin o Linux):`
@@ -42,3 +42,4 @@ Como "sistema operativo" se utilizó [CygWin](https://cygwin.com), una colecció
 
 ##### xsltproc --xinclude -stringparam publisher  publication-decorative.xml -o ./libro_AJS.txt   ../../mathbook/xsl/pretext-html.xsl ./libro_Casa_natal_AJS.xml
 
+-->
