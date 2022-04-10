@@ -5,7 +5,7 @@
 ### Miembros de la Academia de la Geohistoria del Estado Sucre / Venezuela
 
 
-El libro comprende la verificación documental y cartográfica del nacimiento de Antonio José de Sucre, magno hecho acaecido en una casa a las faldas del cerro San Antonio de la Eminencia de la Ciudad de Cumaná; a la espalda de la iglesia parroquial de Santa Inés y al margen de la antigua Plaza de Armas de la fortaleza de Santa MAría de la Cabeza.
+El libro comprende la verificación documental y cartográfica del nacimiento de Antonio José de Sucre, magno hecho acaecido el 3 de febrero de 1795, en una casa a las faldas del cerro San Antonio de la Eminencia de la Ciudad de Cumaná; a la espalda de la iglesia parroquial de Santa Inés y al margen de la antigua Plaza de Armas de la fortaleza de Santa MAría de la Cabeza.
 
 [<img src="./imagenes/portadas/portada_1.jpg" alt="drawing" width="400"/>](https://rommeljose.github.io/La-Casa-Natal-de-AJS)
 [<img src="imagenes/casa_sucre___ok.jpg" alt="drawing" width="500"/>](https://rommeljose.github.io/La-Casa-Natal-de-AJS)
@@ -24,8 +24,8 @@ Para lograr su presentación en un formato interactivo y amigable en la WEB, se 
 Como "sistema operativo" se utilizó [CygWin](https://cygwin.com), una colección de herramientas GNU -de código abierto- que proporcionan una funcionalidad similar a una distribución de Linux bajo Windows (Software Libre; licencia GPL y LGPL).
 
 ###### *Nota: Todas las marcas registradas son las marcas registradas de sus respectivos propietarios.*
-
 <!--
+
 ## Proceso de los archivos de código XML (PreText)
 
 `Para ejecutar los comandos de edición PreText (en un entorno CygWin o Linux):`
